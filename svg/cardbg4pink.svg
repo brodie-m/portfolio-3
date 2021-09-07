@@ -1,0 +1,54 @@
+<svg id="visual" viewBox="0 0 960 540" width="960" height="540"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <g stroke-width="1" stroke-linejoin="bevel">
+        <path d="M472 219L455 132L358 168Z" fill="#252525" stroke="#ff0066"></path>
+        <path d="M358 168L338 318L472 219Z" fill="#222222" stroke="#ff0066"></path>
+        <path d="M622 174L476 0L455 132Z" fill="#151516" stroke="#ff0066"></path>
+        <path d="M455 132L326 0L358 168Z" fill="#151516" stroke="#ff0066"></path>
+        <path d="M627 248L622 174L472 219Z" fill="#1c1c1c" stroke="#ff0066"></path>
+        <path d="M472 219L622 174L455 132Z" fill="#252525" stroke="#ff0066"></path>
+        <path d="M476 0L326 0L455 132Z" fill="#252525" stroke="#ff0066"></path>
+        <path d="M153 274L279 354L338 318Z" fill="#292929" stroke="#ff0066"></path>
+        <path d="M338 318L435 399L472 219Z" fill="#131314" stroke="#ff0066"></path>
+        <path d="M604 357L627 248L472 219Z" fill="#252525" stroke="#ff0066"></path>
+        <path d="M153 274L338 318L358 168Z" fill="#222222" stroke="#ff0066"></path>
+        <path d="M338 318L279 354L435 399Z" fill="#181818" stroke="#ff0066"></path>
+        <path d="M435 399L604 357L472 219Z" fill="#1a1a1a" stroke="#ff0066"></path>
+        <path d="M326 0L209 0L358 168Z" fill="#131314" stroke="#ff0066"></path>
+        <path d="M112 104L153 274L358 168Z" fill="#222222" stroke="#ff0066"></path>
+        <path d="M209 0L112 104L358 168Z" fill="#222222" stroke="#ff0066"></path>
+        <path d="M802 170L679 0L622 174Z" fill="#1a1a1a" stroke="#ff0066"></path>
+        <path d="M622 174L679 0L476 0Z" fill="#1e1e1e" stroke="#ff0066"></path>
+        <path d="M604 357L757 277L627 248Z" fill="#252525" stroke="#ff0066"></path>
+        <path d="M627 248L757 277L622 174Z" fill="#1a1a1a" stroke="#ff0066"></path>
+        <path d="M279 354L360 540L435 399Z" fill="#1c1c1c" stroke="#ff0066"></path>
+        <path d="M435 399L493 540L604 357Z" fill="#202020" stroke="#ff0066"></path>
+        <path d="M604 357L751 366L757 277Z" fill="#1e1e1e" stroke="#ff0066"></path>
+        <path d="M159 445L360 540L279 354Z" fill="#151516" stroke="#ff0066"></path>
+        <path d="M360 540L493 540L435 399Z" fill="#222222" stroke="#ff0066"></path>
+        <path d="M0 411L159 445L153 274Z" fill="#1c1c1c" stroke="#ff0066"></path>
+        <path d="M153 274L159 445L279 354Z" fill="#131314" stroke="#ff0066"></path>
+        <path d="M667 540L751 366L604 357Z" fill="#1a1a1a" stroke="#ff0066"></path>
+        <path d="M757 277L802 170L622 174Z" fill="#252525" stroke="#ff0066"></path>
+        <path d="M960 101L802 170L960 296Z" fill="#151516" stroke="#ff0066"></path>
+        <path d="M0 0L0 172L112 104Z" fill="#272727" stroke="#ff0066"></path>
+        <path d="M112 104L0 172L153 274Z" fill="#151516" stroke="#ff0066"></path>
+        <path d="M0 172L0 279L153 274Z" fill="#151516" stroke="#ff0066"></path>
+        <path d="M493 540L667 540L604 357Z" fill="#1a1a1a" stroke="#ff0066"></path>
+        <path d="M0 540L159 540L159 445Z" fill="#222222" stroke="#ff0066"></path>
+        <path d="M159 445L159 540L360 540Z" fill="#222222" stroke="#ff0066"></path>
+        <path d="M209 0L0 0L112 104Z" fill="#181818" stroke="#ff0066"></path>
+        <path d="M802 170L845 0L679 0Z" fill="#222222" stroke="#ff0066"></path>
+        <path d="M0 279L0 411L153 274Z" fill="#292929" stroke="#ff0066"></path>
+        <path d="M667 540L767 540L751 366Z" fill="#272727" stroke="#ff0066"></path>
+        <path d="M960 296L802 170L757 277Z" fill="#222222" stroke="#ff0066"></path>
+        <path d="M802 170L960 101L845 0Z" fill="#272727" stroke="#ff0066"></path>
+        <path d="M960 296L757 277L751 366Z" fill="#252525" stroke="#ff0066"></path>
+        <path d="M0 411L0 540L159 445Z" fill="#292929" stroke="#ff0066"></path>
+        <path d="M960 446L960 296L751 366Z" fill="#1c1c1c" stroke="#ff0066"></path>
+        <path d="M960 101L960 0L845 0Z" fill="#272727" stroke="#ff0066"></path>
+        <path d="M767 540L960 446L751 366Z" fill="#1c1c1c" stroke="#ff0066"></path>
+        <path d="M767 540L960 540L960 446Z" fill="#181818" stroke="#ff0066"></path>
+    </g>
+</svg>

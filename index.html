@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+
+    <script src="https://kit.fontawesome.com/b294569c76.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <script src="bubbles.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <canvas id="canvasbg">
+        
+    </canvas>
+    <canvas id="canvas">
+        <svg>
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="1000" result="blur"/>
+                    <feColorMatrix in="blur" mode="matrix" values="10 0 0 0 0
+                                                                   0 10 0 0 0
+                                                                   0 0 1 0 0
+                                                                   0 0 0 100 -100"
+                                                                   result = "goo"/>
+                    <feBlend in="SourceGraphic" in2="goo"/>
+                </filter>
+            </defs>
+        </svg>
+    </canvas>
+    
+    <div class="">
+        
+        <section class="whiteGradient">
+            <h1 class="fw-bolder">Brodie McGuire</h1>
+            <hr>
+            <h2> software engineer<br>personal portfolio page</h2>
+            <br>
+            <br>
+
+            <div class="container-fluid row-cols-auto">
+                <div class="row align-items-center p-1">
+                    <div class="col-sm p-1 ">
+                        <div class="card top-card cardbg1">
+                            <div class="card-body">
+                                <a href="#about-me" class="white-text">
+                                    <h2 class="card-title ">
+                                        about
+                                    </h2>
+                                    <p class="card-text text-grey">
+                                        get to know more
+                                    </p>
+
+                                </a>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm p-1">
+                        <div class="card top-card cardbg2">
+                            <div class="card-body">
+                                <a href="#projects" class="white-text">
+                                    <h2 class="card-title">
+                                        projects
+                                    </h2>
+                                    <p class="card-text text-grey">
+                                        see what i've been working on
+                                    </p>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm p-1">
+                        <div class="card top-card cardbg3">
+                            <div class="card-body">
+                                <a href="#contact" class="white-text">
+                                    <h2 class="card-title">
+                                        contact
+                                    </h2>
+                                    <p class="card-text text-grey">
+                                        get in touch
+                                    </p>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm p-1">
+                        <div class="card top-card cardbg4">
+                            <div class="card-body">
+                                <a href="#skills" class="white-text">
+                                    <h2 class="card-title">
+                                        skills
+                                    </h2>
+                                    <p class="card-text text-grey">
+                                        see what i've learned / i'm learning
+                                    </p>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+    </section>
+    <div class="spacer top-spacer flip scroll" data-rate="0" data-start="0"></div>
+    <section class="dark">
+        <br>
+        <br>
+        <br>
+        <!-- <div class="container-fluid about-container mt-5 p-1" id="about-me"> -->
+        <div class="card scroll cardbg5" data-rate="0" data-start="100" id="about-me">
+            <h1 class="card-header">about me</h2>
+                <h2 class="card-title p-2">brodie mcguire</h2>
+                <p class="p-2">
+
+                    Hi! I'm Brodie, a recent graduate from the University of Cambridge. I studied Natural Sciences,
+                    eventually specialising in Chemistry in my final year. After many years of weighing up the pros and
+                    cons of research and tech, I've decided upon a career in the latter - hence why you're looking at
+                    this website! Feel free to have a look around...
+                </p>
+                <img class="card-img-bottom rounded-circle img-fluid mx-auto"
+                    src="https://media-exp1.licdn.com/dms/image/C4E03AQFyZTbRgqqTrA/profile-displayphoto-shrink_800_800/0/1627205301556?e=1635379200&v=beta&t=w6dBec94Aecw1t8_L_LOObuBxy1HpTNAs6BS7j2wK3s"
+                    alt="Brodie photo">
+        </div>
+        
+        <!-- <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div> -->
+
+    </section>
+
+    </div>
+
+    <div class="spacer layer2 scroll" data-rate="0.3" data-start="400"></div>
+    <section class="dark scroll" data-rate="0.2" data-start="1600">
+        
+        <h1 id="projects">projects</h1>
+        <hr>
+        <h2>have a look at some of my recent development work</h2>
+        <p>
+            Ad itaque ex dolorem atque! Necessitatibus, natus. Quos voluptatibus quia, nam ab esse deserunt, quidem
+            consectetur, nesciunt quaerat fugiat accusamus doloribus nihil temporibus provident possimus. Temporibus
+            laborum illum harum dignissimos!</p>
+        <div class="container projects-container row-cols-auto p-1">
+            <div class="row">
+                <div class="col">
+                    <div class="card p-1 mt-2">
+                        <h1 class="card-header">html/css <i class="fab purple fa-html5"> </i> <i
+                                class="fab purple fa-css3-alt"></i></h1>
+                        <h2 class="card-title red-text">project title</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit porro
+                            facilis quaerat, ex laborum aperiam? Beatae quibusdam voluptas a minima velit quis,
+                            commodi ipsum architecto eligendi enim quia sint laudantium!</p>
+                        <div class="github-links">
+                            <a href="" class="other-pink p-2" target="_blank">
+                                <i class="fab fa-github projects-icons fs-2"></i>
+                            </a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="card p-1 mt-2">
+                        <h1 class="card-header">bootstrap <i class="fab purple fa-bootstrap"></i></h1>
+                        <h2 class="card-title red-text">project title</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit porro
+                            facilis quaerat, ex laborum aperiam? Beatae quibusdam voluptas a minima velit quis,
+                            commodi ipsum architecto eligendi enim quia sint laudantium!</p>
+                        <div class="github-links">
+                            <a href="" class="other-pink p-2" target="_blank">
+                                <i class="fab fa-github projects-icons fs-2"></i>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card p-1 mt-2">
+                    <h1 class="card-header">node.js <i class="fab purple fa-node-js"></i></h1>
+                    <h2 class="card-title red-text">project title</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit porro
+                        facilis quaerat, ex laborum aperiam? Beatae quibusdam voluptas a minima velit quis,
+                        commodi ipsum architecto eligendi enim quia sint laudantium!</p>
+                    <div class="github-links">
+                        <a href="" class="other-pink p-2" target="_blank">
+                            <i class="fab fa-github projects-icons fs-2"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card p-1 mt-2">
+                    <h1 class="card-header">python <i class="fab purple fa-python"></i></h1>
+                    <h2 class="card-title red-text">project title</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit porro
+                        facilis quaerat, ex laborum aperiam? Beatae quibusdam voluptas a minima velit quis,
+                        commodi ipsum architecto eligendi enim quia sint laudantium!</p>
+                    <div class="github-links">
+                        <a href="" class="other-pink p-2" target="_blank">
+                            <i class="fab fa-github projects-icons fs-2"></i>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="spacer layer2  flip-hr scroll" data-rate="0.5" data-start="2500">
+
+    </div>
+    <section class="dark socialsbg scroll move-up" data-rate="0.1" data-start="2500" id="contact">
+        <div class="pink rounded-pill contact-block position-absolute start-0 w-75 scroll" data-rate="0.2" data-start="3000">
+            <div class="red rounded-pill position-relative start-0 w-25 p-2">
+                <h1 class="position-relative">socials</h1>
+            </div>
+            <div class="fs-1 dark-text p-2">
+                <p class="fs-3">
+                    have a look at my social media
+                </p>
+                <a href="https://www.linkedin.com/in/brodie-mcguire/" class="socials-button" target="_blank">
+                    <i class="fab fa-linkedin dark-text"></i>
+                </a>
+
+                <!-- <a href="mailto:brodiedmcguire@gmail.com" class="socials-button" target="_blank">
+        <i class="fas fa-envelope-open-text dark-text"></i>
+     </a>
+
+     <a href="tel:+44 7956462553" class="socials-button" target="_blank">
+        <i class="fas fa-phone-square dark-text"></i>
+     </a> -->
+
+                <a href="https://www.paypal.me/brodiemcguire" class="socials-button" target="_blank">
+                    <i class="fab fa-twitter dark-text"></i>
+                </a>
+
+                <a href="https://www.paypal.me/brodiemcguire" class="socials-button" target="_blank">
+                    <i class="fab fa-instagram dark-text"></i>
+                </a>
+
+                <a href="github.com/brodie-m"><i class="fab fa-github dark-text"></i>
+                </a>
+
+            </div>
+
+        </div>
+        <div class="move-up">
+            <h1 class="fw-bolder">
+                connect with me
+            </h1>
+        </div>
+        <div class="red rounded-pill contact-block position-absolute end-0 top-100 w-75 scroll" data-rate="0.2" data-start="3000">
+            <div class="pink rounded-pill position-relative  w-25 p-2">
+                <h1>contact</h1>
+            </div>
+
+            <div class="fs-1 dark-text p-2">
+                <p class="fs-3">
+                    or get in touch by email/phone
+                </p>
+
+
+                <a href="mailto:brodiedmcguire@gmail.com" class="socials-button" target="_blank">
+                    <i class="fas fa-envelope-open-text dark-text"></i>
+                </a>
+
+                <a href="tel:+44 7956462553" class="socials-button" target="_blank">
+                    <i class="fas fa-phone-square dark-text"></i>
+                </a>
+
+
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+    <div class="spacer layer1"></div>
+    </div>
+</body>
+
+</html>
